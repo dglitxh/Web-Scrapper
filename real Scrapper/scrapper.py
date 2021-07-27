@@ -2,9 +2,9 @@ from bs4 import BeautifulSoup
 import requests
 import time
 
-print('Put in some skill that you are not familiar with')
+print('What skills are you familliar with')
 unfamiliar_skill = input('>')
-print(f'Filtering out {unfamiliar_skill}...........\n\n')
+print(f'Filtering out {unfamiliar_skills}...........\n\n')
 
 def find_jobs():
     html_text = requests.get('https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&txtKeywords=python&txtLocation=').text
