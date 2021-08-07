@@ -26,6 +26,6 @@ def find_jobs():
 if __name__ == '__main__':
     while True:
         find_jobs()
-        time_wait = 10
-        print(f'Waitiing {time_wait} minutes')
+        time_wait = 5
+        print(f'Waitiing {time_wait} minutes....')
         time.sleep(time_wait * 60)
