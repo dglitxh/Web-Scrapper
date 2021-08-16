@@ -3,7 +3,7 @@ import requests
 import time
 
 print('What skills are you familliar with')
-unfamiliar_skill = input('>')
+unfamiliar_skill = input('>>')
 print(f'Filtering out {unfamiliar_skills}...........\n\n')
 
 def find_jobs():
@@ -21,11 +21,11 @@ def find_jobs():
                     f.write(f"Company Name: {company_name.strip()} \n")
                     f.write(f"Required Skills: {skills.strip()} \n")
                     f.write(f"More Info: {more_info.strip()}")
-                print(f'file saved: {index}')    
+                print(f'File saved: {index}')    
 
 if __name__ == '__main__':
     while True:
         find_jobs()
-        time_wait = 5
+        time_wait = 10
         print(f'Waitiing {time_wait} minutes....')
         time.sleep(time_wait * 60)
