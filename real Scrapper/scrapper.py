@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import time
 
-print('What skills are you familliar with')
+print('What skills are your familliar skills')
 unfamiliar_skill = input('>>')
 print(f'Filtering out {unfamiliar_skills}...........\n\n')
 
